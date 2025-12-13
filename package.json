@@ -2,12 +2,27 @@
   "name": "node",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/Nirmasiddh/Node.js#readme",
+  "bugs": {
+    "url": "https://github.com/Nirmasiddh/Node.js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nirmasiddh/Node.js.git"
+  },
   "license": "ISC",
-  "author": "",
+  "author": "Nirma",
   "type": "commonjs",
   "main": "hello.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node hello.js"
+  },
+  "dependencies": {
+    "accessibility": "^6.1.0",
+    "chalk": "^5.6.2",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.2.1",
+    "one-liner-joke": "^1.2.2"
   }
 }
